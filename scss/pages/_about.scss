@@ -1,0 +1,147 @@
+.hero {
+}
+
+.about__container {
+  background-color: $primary-peach-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8.7rem;
+  padding-right: 0;
+  border-radius: 15px;
+  background-image: url("../../images/about-oval.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__wrapper {
+  padding-left: 9.5rem;
+}
+
+.about__title {
+  margin-top: 3.5rem;
+  margin-bottom: 3.2rem;
+}
+
+.hero__text {
+}
+
+.about-bg {
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+    width: 100%;
+    max-width: 689px;
+    height: 632px;
+  }
+
+  .about-bg {
+    width: 100%;
+    max-width: 689px;
+    height: 312px;
+    margin-top: 4rem;
+    margin-left: -4rem;
+  }
+
+  .about__wrapper {
+    padding-left: 3rem;
+    width: 100%;
+    max-width: 573px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .about__container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+    width: 100%;
+    max-width: 689px;
+    height: 632px;
+  }
+
+  .about-bg {
+    width: 100%;
+    max-width: 375px;
+    height: 312px;
+    margin-top: -84rem;
+    margin-left: -4rem;
+  }
+
+  .about__wrapper {
+    padding-left: 0;
+    width: 100%;
+    max-width: 327px;
+    text-align: center;
+  }
+}
+
+// TALANT START
+
+.talant {
+  margin-bottom: 16rem;
+}
+
+.talant__container {
+  display: flex;
+  align-items: center;
+  gap: 10.4rem;
+  background-color: #fdf3f0;
+  border-radius: 15px;
+}
+
+.img__wrapper {
+  padding-left: 0;
+  margin-left: -5rem;
+}
+
+.talant__img {
+  border-radius: 15px;
+}
+
+.talant__wrapper {
+  width: 100%;
+  max-width: 445px;
+}
+
+.talant__title {
+  color: #e7816b;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.talant__desc {
+}
+
+@media screen and (max-width: 768px) {
+  .talant__container {
+    flex-direction: column;
+  }
+
+  .talant__wrapper {
+    padding-bottom: 4.4rem;
+    text-align: center;
+  }
+
+  .img__wrapper {
+    padding-left: 0;
+    margin-left: 0rem;
+    width: 100%;
+    max-width: 765px;
+  }
+
+  .talant__img {
+    width: 100%;
+  }
+}
+// ENDDDDD
+
+.see__loc {
+  background-color: #e7816b;
+  color: #fdf3f0;
+}

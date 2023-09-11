@@ -1,0 +1,59 @@
+.graph__list {
+  display: flex;
+  align-items: center;
+  gap: 3.1rem;
+}
+
+.portfolio__title {
+  transition: all 0.3s ease-in;
+}
+
+.portfolio__item-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 286px;
+}
+
+.graph__item {
+  width: 100%;
+  max-width: 350px;
+  height: 478px;
+  background-color: #fdf3f0;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    background-color: $primary-peach-color;
+    color: white;
+  }
+
+  &:hover .portfolio__title {
+    color: $primary-white-color;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .graph__list {
+    flex-direction: column;
+  }
+
+  .graph__item {
+    display: flex;
+    width: 100%;
+    max-width: 689px;
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .graph__list {
+  }
+
+  .graph__item {
+    flex-direction: column;
+    width: 100%;
+    max-width: 327px;
+    height: 520px;
+  }
+}
